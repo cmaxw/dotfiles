@@ -13,3 +13,12 @@
 (setq ido-enable-flex-matching t)
 
 (setq tab-width 2)
+
+(setq backup-directory-alist `(("." . "~/.saves")))
+
+(autoload 'markdown-mode "markdown-mode"
+  "Major mode for editing Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+(require 'haml-mode)
