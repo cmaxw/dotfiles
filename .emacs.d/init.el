@@ -22,3 +22,7 @@
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 
 (require 'haml-mode)
+
+(setq ruby-insert-encoding-magic-comment nil)
+
+(setq-default indent-tabs-mode nil)
