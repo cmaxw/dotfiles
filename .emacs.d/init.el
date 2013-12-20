@@ -41,3 +41,8 @@
 
 (add-hook 'dired-mode-hook 'rspec-dired-mode)
 (add-hook 'ruby-mode-hook 'rspec-mode)
+
+(setq ruby-insert-encoding-magic-comment nil)
+
+(setq-default indent-tabs-mode nil)
+

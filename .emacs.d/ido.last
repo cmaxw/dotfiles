@@ -1,0 +1,175 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/chuck_wood/onlifehealth/liveon/db/" . "migrate/")
+ ("/Users/chuck_wood/onlifehealth/liveon/config/" . "initializers/")
+ ("/Users/chuck_wood/onlifehealth/liveon/app/assets/javascripts/" . "controller/")
+ ("/Users/chuck_wood/onlifehealth/liveon/app/assets/" . "javascripts/")
+ ("/Users/chuck_wood/onlifehealth/liveon/app/views/" . "lessons/")
+ ("/Users/chuck_wood/onlifehealth/liveon/lib/" . "daemons/")
+ ("/Users/chuck_wood/onlifehealth/liveon/spec/" . "factories/")
+ ("/Users/chuck_wood/onlifehealth/liveon/app/models/" . "outreach/")
+ ("/Users/chuck_wood/onlifehealth/liveon/app/" . "models/")
+ ("/Users/chuck_wood/onlifehealth/liveon/" . "lib/")
+ ("/Users/chuck_wood/onlifehealth/onlife_health/spec/" . "fixtures/")
+ ("/Users/chuck_wood/onlifehealth/onlife_health/lib/" . "tasks/")
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/views/api/v1/" . "challenges/")
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/views/api/" . "v1/")
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/views/" . "api/")
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/controllers/api/" . "v1/")
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/controllers/" . "api/")
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/" . "views/")
+ ("/Users/chuck_wood/onlifehealth/onlife_health/" . "lib/")
+ ("/Users/chuck_wood/onlifehealth/" . "liveon/")
+ ("/Users/" . "chuck_wood/")
+ ("/Users/chuck_wood/" . "onlifehealth/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/chuck_wood/onlifehealth/liveon/"
+ "/Users/chuck_wood/onlifehealth/liveon/lib/daemons/"
+ "/Users/chuck_wood/onlifehealth/liveon/app/models/"
+ "/Users/chuck_wood/onlifehealth/liveon/db/"
+ "/Users/chuck_wood/onlifehealth/liveon/app/views/lessons/"
+ "/Users/chuck_wood/onlifehealth/liveon/spec/factories/"
+ "/Users/chuck_wood/onlifehealth/liveon/app/assets/javascripts/"
+ "/Users/chuck_wood/onlifehealth/liveon/app/assets/javascripts/controller/"
+ "/Users/chuck_wood/onlifehealth/liveon/app/controllers/"
+ "/Users/chuck_wood/onlifehealth/liveon/app/views/courses/"
+ "/Users/chuck_wood/onlifehealth/liveon/app/presenters/"
+ "/Users/chuck_wood/onlifehealth/liveon/app/views/home/"
+ "/Users/chuck_wood/onlifehealth/liveon/spec/javascripts/"
+ "/Users/chuck_wood/onlifehealth/"
+ "/Users/chuck_wood/onlifehealth/liveon/spec/models/"
+ "/Users/chuck_wood/onlifehealth/liveon/db/migrate/"
+ "/Users/chuck_wood/onlifehealth/liveon/config/initializers/"
+ "/Users/chuck_wood/onlifehealth/liveon/app/assets/javascripts/challenges/"
+ "/Users/chuck_wood/onlifehealth/liveon/app/views/teams/"
+ "/Users/chuck_wood/onlifehealth/liveon/config/"
+ "/Users/chuck_wood/onlifehealth/liveon/lib/tasks/"
+ "/Users/chuck_wood/onlifehealth/liveon/app/models/outreach/"
+ "/Users/chuck_wood/onlifehealth/onlife_health/spec/fixtures/"
+ "/Users/chuck_wood/onlifehealth/onlife_health/"
+ "/Users/chuck_wood/onlifehealth/onlife_health/lib/tasks/"
+ "/Users/chuck_wood/onlifehealth/onlife_health/config/"
+ "/Users/chuck_wood/onlifehealth/onlife_health/app/views/api/v1/challenges/"
+ "/Users/chuck_wood/onlifehealth/onlife_health/app/controllers/api/v1/"
+ "/Users/chuck_wood/onlifehealth/onlife_health/app/controllers/"
+ "/Users/chuck_wood/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Gemfile"
+ "member_action_daemon.rb"
+ "member_action_consumer.rb"
+ "lesson.rb"
+ "schema.rb"
+ "show.js.erb"
+ "team_challenge.rb"
+ "site.js"
+ "home.js"
+ "application.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/chuck_wood/onlifehealth/liveon/lib/daemons/" (21069 63560 0 0) "rules_engine_daemon.rb" "rules_engine_consumer.rb" "points_import_daemon.rb" "points_import_consumer.rb" "member_update_daemon.rb" "member_update_consumer.rb" "member_termination_daemon.rb" "member_termination_consumer.rb" "member_report_daemon.rb" "member_report_consumer.rb" "member_biometrics_daemon.rb" "member_biometrics_consumer.rb" "member_action_daemon.rb" "member_action_consumer.rb" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/spec/factories/" (21078 55123 0 0) "weight_maintenance_goal.rb" "weight_entry.rb" "weight_decrease_goal.rb" "weight_data_point.rb" "user_authentication.rb" "user.rb" "unit_of_measure.rb" "tracker_image_token.rb" "tobacco_quit_goal.rb" "tobacco_maintenance_goal.rb" "threshold_medal.rb" "team_member.rb" "team_challenge_week.rb" "team_challenge.rb" "team.rb" "support_log.rb" "stress_management_goal.rb" "reports/" "remote_search.rb" "recommendation.rb" "ranking_medal.rb" "points_activity.rb" "page.rb" "outreach.rb" "message.rb" "member_threshold_medal_factory.rb" "member_team_challenge_week.rb" "member_team_challenge_metric.rb" "member_team_challenge.rb" "member_goal.rb" "member_challenge.rb" "member_activity.rb" "member.rb" "medal_package.rb" "measurement.rb" "lesson_progress_factory.rb" "lesson.rb" "ledger_entry.rb" "historical_property_data_points.rb" "historical_property_data_formats.rb" "goals_weight_maintenance_goals.rb" "goals_tobacco_quit_goals.rb" "fitness_improvement_goal.rb" "diet_goal.rb" "course_enrollment_factory.rb" "course.rb" "comment.rb" "coach_certification.rb" "coach.rb" "cholesterol_goal.rb" "challenge.rb" "blood_pressure_goal.rb" "assessment.rb" "alert_factory.rb" "action_log.rb" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/views/lessons/" (21078 63652 0 0) "show.js.erb" "show.html.erb" "index.js.erb" "_page.html.erb" "_overview.html.erb" "_list.html.erb" "_activity_modal.html.erb" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/lib/tasks/" (21078 55123 0 0) "tracker_image_token.rake" "text_messaging.rake" "test_data.rake" "sqlserver_tasks.rake" "rabbit.rake" "populate.rake" "outreach.rake" "deployment/" "deploy_task_runner.rake" "cucumber.rake" "courses.rake" "challenges.rake" "cache.rake" "alias_task.rake" ".gitkeep" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/lib/" (21060 61368 0 0) "text_messaging.rb" "text_messaging/" "templates/" "tasks/" "models/" "messaging/" "generators/" "deploy_task_file.rb" "deploy_task.rb" "daemons/" "core_ext/" "challenges/" "assets/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/models/" (21078 55123 0 0) "user.rb" "unit_of_measure.rb" "tracker_types.rb" "tracker_image_token.rb" "tracker.rb" "threshold_medal.rb" "team_member.rb" "team_challenge_week.rb" "team_challenge_view.rb" "team_challenge.rb" "team.rb" "support_log.rb" "reports/" "report_requestor.rb" "remote_search.rb" "recommender.rb" "recommendation_extension.rb" "recommendation.rb" "recommendation/" "ranking_medal.rb" "rankable.rb" "program_step.rb" "points_schedule.rb" "points_import_configuration.rb" "points_file_processor.rb" "points_activity.rb" "page.rb" "outreaches_extension.rb" "outreach_processor.rb" "outreach.rb" "outreach/" "milestone_assessment_notification.rb" "message_status.rb" "message_management/" "message.rb" "member_threshold_medal.rb" "member_team_challenge_week.rb" "member_team_challenge_metric.rb" "member_team_challenge.rb" "member_status.rb" "member_points.rb" "member_group.rb" "member_goal.rb" "member_eligibility_status.rb" "member_challenge.rb" "member.rb" "medal_package.rb" "measurement.rb" "lesson_progress.rb" "lesson.rb" "ledger_entry.rb" "issues_ruling.rb" "historical_property.rb" "historical_property/" "goals.rb" "goals/" "goal_validation.rb" "goal_status.rb" "goal_extension.rb" "goal_definitions/" "goal_definition.rb" "goal.rb" "course_enrollment.rb" "course.rb" "contact_type.rb" "contact_time.rb" "comment.rb" "coach_certification.rb" "coach.rb" "challenge_member.rb" "challenge.rb" "calorie_story/" "biometric_screening_program_step.rb" "auth/" "audit_log.rb" "assessment_type.rb" "assessment_response_mapper.rb" "assessment_builder_extension.rb" "assessment.rb" "assessment/" "alert.rb" "aes_encryptor.rb" "activity_importer.rb" "activity_code.rb" "activity.rb" "action_log.rb" "action_definitions.rb" "action_definition.rb" "action_categories.rb" "ability.rb" ".gitkeep" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/db/" (21078 55123 0 0) "test.sqlite3" "seeds.rb" "schema.rb" "migrate/" "development.sqlite3" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/assets/javascripts/" (21078 9987 0 0) "trackers/" "templates/" "site.js" "routes.js" "plugins.js" "pjax.js" "milestone_assessment_notifications.js" "lps/" "localize.js" "locales/" "life_points.js" "ledger_entries.js" "learn_more.js" "jquery.vticker.js" "jquery.validate.custom-methods.js" "jquery.ui.dialog.js" "jquery.jcarousel.min.js" "health_coach.js" "group_notifications.js" "goals/" "global_helpers.js" "facebook.js.erb" "doc_viewer.js" "core.js" "controller/" "chrome.js" "challenges/" "assessments.js" "application.js" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/assets/javascripts/controller/" (21078 9898 0 0) "trackers.js" "members.js" "member_messages.js" "member_goals.js" "lps/" "lessons.js" "home.js" "health_resources.js" "goal_definitions.js" "activities.js" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/views/courses/" (21078 4098 0 0) "show.html.erb" "index.html.erb" "en/" "_trackers.html.erb" "_overview.html.erb" "_lesson_carousel.html.erb" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/controllers/" (21077 49150 0 0) "ui_controller.rb" "trackers_controller.rb" "tracker_image_tokens_controller.rb" "tmp_controller.rb" "test_controller.rb" "teams_controller.rb" "team_members_controller.rb" "team_challenges_controller.rb" "reports/" "redemption_controller.rb" "points_activities_controller.rb" "pages_controller.rb" "members_controller.rb" "member_team_challenges_controller.rb" "member_team_challenge_weeks_controller.rb" "member_search_controller.rb" "member_messages_controller.rb" "member_goals_controller.rb" "member_challenges_controller.rb" "member_activities_controller.rb" "medals_controller.rb" "medal_packages_controller.rb" "lps/" "lessons_controller.rb" "ledger_entries_controller.rb" "home_controller.rb" "historical_properties_controller.rb" "health_resources_controller.rb" "goal_definitions_controller.rb" "courses_controller.rb" "comments_controller.rb" "challenges_controller.rb" "challenge_sessions_controller.rb" "challenge_members_controller.rb" "challenge_archives_controller.rb" "auth/" "assessments_controller.rb" "application_controller.rb" "api/" "../" "./")
+
+ ("/Users/chuck_wood/" (21070 55648 0 0) "Public/" "Pictures/" "onlifehealth/" "Music/" "Movies/" "Library/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc" ".zprofile" ".viminfo" ".vim/" ".Trash/" ".tmux.conf" ".ssh/" ".sqlite_history" ".saves/" ".rvm/" ".rnd" ".rdebugrc" ".pry_history" ".profile" ".MacOSX/" ".lesshst" ".k5login" ".irb-history" ".gitconfig" ".git-completion.bash" ".gem/" ".erlang.cookie" ".emacs.d/" ".DS_Store" ".dotfiles/" ".CFUserTextEncoding" ".bashrc" ".bash_profile~" ".bash_profile" ".bash_history" ".anyconnect" ".account" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/presenters/" (21060 61368 0 0) "points_activities_presenter.rb" "milestone_recommendations_presenter.rb" "member_goals_presenter.rb" "locale_presenter.rb" "dashboard_presenter.rb" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/views/home/" (21058 43894 0 0) "index.html.erb" "_text_message_widget.html.erb" "_system_message_center.html.erb" "_program_steps.html.erb" "_milestone_summary_item.html.erb" "_milestone_assessment_summary.html.erb" "_milestone_assessment_notification.html.erb" "_message_notifications.html.erb" "_message_center.html.erb" "_courses_summary.html.erb" "_coaching_summary.html.erb" "../" "./")
+
+ ("/Users/chuck_wood/.emacs.d/" (21065 59718 0 0) "url/" "init.el~" "init.el" "ido.last" "elpa/" "ede-projects.el" "auto-save-list/" "#init.el#" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/" (21061 64719 0 0) "vendor/" "tmp/" "spec/" "script/" "README.md" "Rakefile" "public/" "log/" "lib/" "Guardfile" "Gemfile.lock" "Gemfile" "features/" "doc/" "db/" "config.ru" "config/" "Capfile" "bin/" "app/" ".rspec" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/config/" (21069 63560 0 0) "unicorn.conf" "sparkling_logic.yml" "services.yml" "schedule.rb" "rules_engine_daemon.yml" "routes.rb" "rabbitmq.yml" "points_import.yml" "ondemand_api_config.yml" "omniauth-wsfed.yml" "olh_auth.yml" "newrelic.yml" "navigation.rb" "locales/" "initializers/" "facebook.yml" "environments/" "environment.rb" "entity_service.yml" "deploy.rb" "deploy/" "database.yml" "daemons.yml" "cucumber.yml" "configuration_service.yml" "boot.rb" "assessment_data_odd.yml" "application.rb" "amazon_s3_keys.yml" "amazon_endpoint.yml" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/views/teams/" (21069 63560 0 0) "show.html.haml" "new.html.haml" "edit.html.haml" "_team_member_listing.html.haml" "_requested_show.html.haml" "_request_form_show.html.haml" "_no_action_show.html.haml" "_member_search.html.haml" "_joined_show.html.haml" "_invited_show.html.haml" "_form.html.haml" "_counter.html.haml" "_closed_show.html.haml" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/config/initializers/" (21069 63560 0 0) "wrap_parameters.rb" "will_paginate_bootstrap.rb" "will_paginate_array.rb" "validates_timeliness.rb" "validates_associated.rb" "time_formats.rb" "text_messaging.rb" "syslogger.rb" "smarts_api.rb" "simple_form.rb" "session_store.rb" "services.rb" "secret_token.rb" "preload_sti_models.rb" "points_admin.rb" "ondemand_api.rb" "olh_auth.rb" "mini_profiler.rb" "mime_types.rb" "messaging.rb" "init_core_extensions.rb" "inflections.rb" "facebook.rb" "client_side_validations.rb" "carrierwave.rb" "backtrace_silencers.rb" "amazon.rb" "airbrake.rb" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/db/migrate/" (21069 63560 0 0) "20131002161552_add_unique_index_to_ref_key_on_team_challenges.rb" "20130918205327_add_external_id_to_member.rb" "20130918201632_drop_member_activity.rb" "20130916133020_rename_assessment_assessment_service_id_column.rb" "20130913133718_add_program_step_indexes.rb" "20130912230958_rename_assessment_client_id_column.rb" "20130912221400_rename_assessment_external_id_column.rb" "20130910183227_add_challenges_on_boarded_to_member.rb" "20130903150007_add_imported_flag_to_points_activity.rb" "20130830165459_allow_nulls_for_action_value.rb" "20130830143636_add_timestamps_to_points_activity.rb" "20130827213802_create_points_activity.rb" "20130731174843_add_metrics_value_change_to_rankables.rb" "20130723170957_add_source_type_to_data_point.rb" "20130708175938_add_source_to_member_goal.rb" "20130705211837_add_timestamps_to_member_team_challenges.rb" "20130627205429_add_viewed_at_to_recommendations.rb" "20130621172825_remove_victims_field_from_member.rb" "20130619162955_add_mobile_phone_status_to_member.rb" "20130618162039_add_points_victim_to_member.rb" "20130617125743_create_tracker_image_token.rb" "20130607203235_add_earned_at_to_ledger_entry.rb" "20130607144939_change_member_team_challenge_metric_value_to_decimal.rb" "20130603200313_change_rankable_metrics_scale.rb" "20130528193751_add_note_to_ledger_entry.rb" "20130527153642_add_medal_package_to_ranking_medal.rb" "20130524170645_add_role_to_user.olh_auth.rb" "20130524170644_add_devise_to_user.olh_auth.rb" "20130524144231_add_medals_awarded_to_team_challenge.rb" "20130523123658_create_ranking_medal.rb" "20130522152136_add_type_to_outreach.rb" "20130515201915_change_bonus_units_to_number.rb" "20130515004136_rename_leaderboard_columns.rb" "20130514144509_add_challenge_eula_acceptance_date_to_member.rb" "20130514141703_add_ranking_to_member_team_challenge.rb" "20130513183927_drop_team_participation_view.rb" "20130510205616_remove_expired_from_assessment.rb" "20130509162048_add_expiration_date_to_health_assessment.rb" "20130508204742_add_expired_to_assessment.rb" "20130508184130_add_leaderboard_fields_to_team.rb" "20130507160052_add_completed_to_recommendation.rb" "20130418155617_create_member_team_challenge_week.rb" "20130418134623_add_last_notification_date_to_assessment.rb" "20130416202803_create_team_challenge_week.rb" "20130412025020_add_language_to_assessment.rb" "20130411165755_change_data_point_creator_id_to_source_id.rb" "20130410155406_remove_coach_id_and_docid_from_recommendation.rb" "20130405195454_change_recommendation_source_and_target.rb" "20130402200736_add_creation_source_to_assessment.rb" "20130328031341_rename_visibility_scope.rb" "20130326194509_change_team_challenge_view_to_use_member_id.rb" "20130321211216_add_challenges_to_member.rb" "20130321211043_add_member_threshold_medal_table.rb" "20130321210915_add_member_team_challenge_table.rb" "20130321210714_add_member_team_challenge_metric_table.rb" "20130321210527_add_member_challenge_table.rb" "20130321210313_add_unit_of_measure_table.rb" "20130321210153_add_threshold_medal_table.rb" "20130321210025_add_team_table.rb" "20130321205753_add_team_member_table.rb" "20130321205627_add_team_challenges_table.rb" "20130321205505_add_team_challenge_view_table.rb" "20130321205243_add_medal_package_table.rb" "20130321205051_add_measurement_table.rb" "20130321204921_add_comments_table.rb" "20130321204652_add_challenges.rb" "20130315210247_add_is_open_to_member_goals.rb" "20130313161300_add_type_column_to_assessment.rb" "20130311145703_add_coach_id_to_assessments.rb" "20130221202941_add_client_id_to_assessments.rb" "20130219145912_add_member_id_index_to_ledger_entry.rb" "20130215152347_change_status_on_alert.rb" "20130215151430_add_display_name_to_coach.rb" "20130214155356_add_time_zone_to_coach.rb" "20130214144056_add_index_to_message.rb" "20130211163723_change_status_on_support_logs.rb" "20130204203550_add_uuid_to_member.rb" "20130204153907_create_coach_certification.rb" "20130131171849_add_group_id_to_support_log.rb" "20130130213236_change_completed_at_to_timestamp_for_outreach.rb" "20130124005525_add_member_goal_id_to_alerts.rb" "20130123222505_add_index_to_ledger_entry.rb" "20130122184126_create_alert.rb" "20130119203724_add_index_for_user_id_to_members.rb" "20130114161943_add_notes_to_support_log.rb" "20130110184015_add_close_values_to_cholesterol_goal.rb" "20130109174251_add_closing_user_id_to_member_goal.rb" "20130109170920_add_closed_at_to_member_goal.rb" "20130109033627_add_close_values_to_fitness_improvement_goal.rb" "20130109023024_add_close_values_to_blood_pressure_goal.rb" "20130108205850_add_close_values_to_stress_management_goal.rb" "20130108000610_remove_unique_index_for_lesson_progress_and_member.rb" "20130107221418_add_closed_at_values_to_diet_goal.rb" "20130107202311_remove_unique_index_for_member_course_enrollment.rb" "20130104202410_add_course_enrollment_fk_to_lesson_progress.rb" "20130104195426_change_resolved_to_string_on_support_log.rb" "20130103215549_add_sub_category_to_support_log.rb" "20121231221304_add_category_to_support_log.rb" "20121231220232_add_resolved_to_support_log.rb" "20121231215101_add_origination_to_support_log.rb" "20121231152723_add_assessment_id_to_member_reports.rb" "20121226010908_add_is_complete_to_support_log.rb" "20121226010303_add_creator_id_to_support_log.rb" "20121226000138_add_phone_number_to_support_log.rb" "20121223171536_add_notes_to_outreach.rb" "20121221183320_add_ledger_entry_id_to_hp_data_point.rb" "20121221181444_add_creator_and_completer_to_outreach.rb" "20121221162212_add_ledger_entry_id_to_course_enrollment.rb" "20121221152352_add_assignee_id_to_outreach.rb" "20121219154659_add_replied_to_to_message.rb" "20121215000029_create_outreach.rb" "20121214140454_add_ledger_entry_idto_action_log.rb" "20121213201155_add_member_id_to_support_log.rb" "20121213200453_create_deploy_task.rb" "20121211204709_create_support_log.rb" "20121210221925_create_recommendation.rb" "20121207174204_remove_sent_by_coach_from_message.rb" "20121206205626_add_sent_by_coach_to_message.rb" "20121206163000_remove_read_by_coach_from_message.rb" "20121206162008_add_coach_reader_persistence_to_message.rb" "20121203094015_add_read_by_coach_at_to_message.rb" "20121130222020_add_removal_comment_to_member_goal.rb" "20121130215157_rename_member_goal_fields.rb" "20121130211635_add_creator_id_to_member_goal.rb" "20121130193833_remove_visible_flag_from_member_report.rb" "20121129080840_add_read_by_coach_to_message.rb" "20121128044653_add_coach_id_to_member.rb" "20121127232638_add_ledger_entry_id_to_assessment.rb" "20121127225543_add_close_reason_to_member_goal.rb" "20121127142916_add_verified_fields_to_member_goals.rb" "20121127124656_drop_table_coach_bound_message.rb" "20121120154310_add_user_id_to_coach.rb" "20121120121638_create_coach_bound_message.rb" "20121119143039_create_audit_log.rb" "20121113215546_create_coach.rb" "20121113195211_add_to_and_from_to_message.rb" "20121108021639_create_activity.rb" "20121107222130_create_member_activities.rb" "20121107202239_add_visible_flag_to_member_report.rb" "20121107200018_add_bg_image_path_to_course.rb" "20121105172535_change_user_id_to_member_id_on_action_log.rb" "20121031160815_change_default_value_of_allow_coaching_on_member.rb" "20121029153045_add_mail_type_to_member.rb" "20121025141049_remove_language_from_member.rb" "20121024204803_add_do_not_coach_to_member.rb" "20121022204800_add_language_to_member.rb" "20121018175031_add_indices_to_historical_property_data_points.rb" "20121009161403_add_life_points_aggregate_to_member.rb" "20121005182852_create_page.rb" "20121005152619_add_description_to_lessons.rb" "20121005140907_add_slug_tagline_desciption_fields_to_courses.rb" "20121004183254_add_date_completed_to_assessment.rb" "20121002190847_make_assessment_external_id_a_string.rb" "20121002190819_add_assessment_service_id_to_assessment.rb" "20121001151657_add_default_to_message_status_id_on_message.rb" "20121001022715_add_views_by_member_to_message.rb" "20120928200906_add_event_id_to_ledger_entry.rb" "20120928200551_remove_seen_by_member_on_message.rb" "20120928195924_remove_event_id_from_ledger_entry.rb" "20120928043628_create_ledger_entry.rb" "20120927234031_add_seen_by_member_to_message.rb" "20120924205143_remove_image_updated_at_from_course.rb" "20120924204324_add_image_filepath_to_course.rb" "20120924204255_remove_attached_from_course.rb" "20120920214708_add_percent_complete_to_assessment.rb" "20120920205539_add_coaching_flag_to_member.rb" "20120919194327_create_message.rb" "20120917221211_create_assessment.rb" "20120913215530_drop_member_report_type_table.rb" "20120913202625_add_language_to_member_report.rb" "20120910194916_add_attachment_image_to_courses.rb" "20120910171023_add_identity_provider_to_user_authentication.rb" "20120910170224_rename_user_authentication_provider.rb" "20120909184821_remove_agreement_fields_from_member.rb" "20120907145733_add_completion_percentage_to_member.rb" "20120906195536_add_contact_prefs_to_member.rb" "20120830193413_create_member_report_type.rb" "20120830193131_add_agreement_to_member.rb" "20120829161632_create_member_report.rb" "20120823150955_create_action_log.rb" "20120813221736_add_close_metric_missing_fields_to_goals.rb" "20120809163859_add_end_value_to_tobacco_maintenance_goal.rb" "20120807171142_add_goal_status_and_close_comment_fields.rb" "20120806195958_remove_status_from_member.rb" "20120806142035_add_ordinal_to_lesson.rb" "20120802144540_add_status_to_member.rb" "20120726215059_ad_tracker_type_to_course.rb" "20120724162422_purge_tobacco_decrease_goal_data.rb" "20120724141458_create_lesson_progress.rb" "20120722014741_change_fitness_goal_columns.rb" "20120721212506_drop_tobacco_decrease_goal.rb" "20120720211308_create_course_enrollment.rb" "20120720211219_create_lesson.rb" "20120720200932_create_course.rb" "20120708172826_add_action_steps_column_to_member_goal.rb" "20120627160853_change_tobacco_quantity_column_type.rb" "20120626205333_create_user_role.rb" "20120626003807_remove_user_persistence_token.rb" "20120622191954_drop_devise_user_table.rb" "20120621162559_create_tobacco_maintenance_goal.rb" "20120621154704_remove_goal_tobacco_type_column_from_tobacco_decrease_goal.rb" "20120621133818_create_tobacco_decrease_goal.rb" "20120620224555_create_stress_management_goal.rb" "20120620183311_create_fitness_improvement_goal.rb" "20120620164722_create_diet_goal.rb" "20120620163823_depluralize_historical_property_data_points.rb" "20120620163805_depluralize_members.rb" "20120619221258_create_cholesterol_goal.rb" "20120619202251_drop_weight_entry_table.rb" "20120619175401_create_user_authentication.rb" "20120619164111_create_user_table.rb" "20120618211027_add_recorded_at_to_data_point.rb" "20120618155635_rename_cdr_data_points.rb" "20120615202403_create_blood_pressure_goal.rb" "20120615192658_create_tobacco_quit_goal.rb" "20120615174013_create_goals_weight_maintenance_goal.rb" "20120614183230_add_member_goal_to_weight_decrease_goal.rb" "20120613205848_create_weight_decrease_goal.rb" "20120613163537_create_cdr_data_points.rb" "20120612222240_create_weight_entry.rb" "20120607214112_add_user_id_to_member.rb" "20120607211013_devise_create_users.rb" "20120606210924_create_member_goal.rb" "20120603013542_create_members.rb" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/spec/models/" (21069 63560 0 0) "user_spec.rb" "tracker_spec.rb" "tracker_image_token_spec.rb" "threshold_medal_spec_spec.rb" "team_spec.rb" "team_member_spec.rb" "team_challenge_spec.rb" "support_log_spec.rb" "reports/" "report_requestor_spec.rb" "remote_search_spec.rb" "recommender_spec.rb" "recommendation_spec.rb" "recommendation/" "ranking_medal_spec.rb" "program_step_spec.rb" "points_schedule_spec.rb" "points_file_processor_spec.rb" "points_activity_spec.rb" "page_spec.rb" "outreaches_extension_spec.rb" "outreach_spec.rb" "outreach_processor_spec.rb" "milestone_assessment_notification_spec.rb" "message_spec.rb" "message_management/" "member_team_challenges_spec.rb" "member_status_spec.rb" "member_spec.rb" "member_points_spec.rb" "member_message_status_spec.rb" "member_group_spec.rb" "member_goal_spec.rb" "member_eligibility_status_spec.rb" "member_challenge_spec.rb" "medal_package_spec.rb" "lesson_spec.rb" "lesson_progress_spec.rb" "ledger_entry_spec.rb" "issues_ruling_spec.rb" "historical_property/" "goals/" "goal_spec.rb" "goal_definitions/" "goal_definition_spec.rb" "course_spec.rb" "course_enrollment_spec.rb" "contact_type_spec.rb" "contact_time_spec.rb" "comment_spec.rb" "coach_spec.rb" "coach_certification_spec.rb" "challenge_spec.rb" "challenge_member_spec.rb" "calorie_story/" "biometric_screening_program_step_spec.rb" "auth/" "audit_log_spec.rb" "assessment_type_spec.rb" "assessment_spec.rb" "assessment_reponse_mapper_spec.rb" "assessment_builder_extension_spec.rb" "assessment/" "alert_spec.rb" "aes_encryptor_spec.rb" "activity_spec.rb" "activity_importer_spec.rb" "activity_code_spec.rb" "action_log_spec.rb" "action_definitions_spec.rb" "action_definition_spec.rb" "ability_spec.rb" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/" (21069 63560 0 0) "vendor/" "unicorn.conf" "tmp/" "spec/" "script/" "README.md" "Rakefile" "public/" "points_import_files/" "log/" "lib/" "Guardfile" "Gemfile.lock" "Gemfile" "features/" "favicon.ico" "doc/" "db/" "config.ru" "config/" "Capfile" "app/" ".rvmrc" ".rspec" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/spec/javascripts/" (21069 36850 0 0) "trackers_spec.js" "support/" "site_spec.js" "members_spec.js" "member_compose_message_spec.js" "lps/" "localize_spec.js" "life_points_spec.js" "lessons_spec.js" "learn_more_spec.js" "home_spec.js" "helpers/" "health_resources_spec.js" "goal_create_spec.js" "goal_close_spec.js" "global_helpers_spec.js" "fixtures/" "doc_viewer_spec.js" "custom_validations_spec.js" "chrome_spec.js" "assessments_spec.js" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/spec/" (21068 27440 0 0) "views/" "validators/" "support/" "spec_helper.rb" "run-jasmine.js" "presenters/" "models/" "mailers/" "lib/" "javascripts/" "helpers/" "fixtures/" "features/" "factories/" "controllers/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/content_service/" (21062 1133 0 0) "vendor/" "spec/" "solr/" "script/" "README.markdown" "Rakefile" "public/" "log/" "lib/" "Gemfile.lock" "Gemfile" "doc/" "db/" "config.ru" "config/" "Capfile" "app/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/" (21065 61542 0 0) "run.sh~" "run.sh" "platform_configuration/" "onlife_installer.sh~" "onlife_installer.sh" "onlife_health/" "liveon/" "kill.sh~" "kill.sh" "entity_service/" "content_service/" "assessment_service/" "#lib#" "#kill.sh#" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/assets/javascripts/challenges/" (21058 43818 0 0) "team_missions.js" "team.js" "onboarding.js" "mission.js" "member.js" "jquery.modal.js" "jquery.character_limit.js" "html5.js" "filtered_words.json" "dummy_image.pack.js" "common.js" "application.js" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/assets/" (21042 10012 0 0) "stylesheets/" "javascripts/" "images/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/views/" (21042 10013 0 0) "ui/" "trackers/" "teams/" "team_challenges/" "shared/" "reports/" "recommendations/" "program_steps/" "points_import_mailer/" "points_activities/" "pages/" "olh_auth/" "members/" "member_team_challenges/" "member_messages/" "member_goals/" "medals/" "medal_packages/" "lps/" "lessons/" "ledger_entries/" "layouts/" "iwr.html.erb" "home/" "health_resources/" "goal_definitions/" "facebook/" "courses/" "challenges_mailer/" "challenges/" "challenge_members/" "challenge_archives/" "auth/" "assessments/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/models/outreach/" (21042 10013 0 0) "voicemail_callback.rb" "unscheduled_member_support.rb" "unscheduled_coaching_support.rb" "support_call_third_attempt.rb" "support_call_second_attempt.rb" "support_call_first_attempt.rb" "requested_callback.rb" "progress_reminder_message_third_attempt.rb" "progress_reminder_message_second_attempt.rb" "progress_reminder_message_first_attempt.rb" "progress_message_second_attempt.rb" "progress_message_first_attempt.rb" "progress_call_second_attempt.rb" "progress_call_miscellaneous.rb" "progress_call_first_attempt.rb" "paper_assessment_call_third_attempt.rb" "paper_assessment_call_second_attempt.rb" "paper_assessment_call_first_attempt.rb" "initial_reminder_third_attempt.rb" "initial_reminder_second_attempt.rb" "initial_reminder_first_attempt.rb" "initial_message_second_attempt.rb" "initial_message_first_attempt.rb" "initial_call_second_attempt.rb" "initial_call_first_attempt.rb" "high_risk_message.rb" "high_risk_call.rb" "cancellable.rb" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/liveon/app/" (21042 10013 0 0) "views/" "validators/" "presenters/" "models/" "mailers/" "helpers/" "decorators/" "controllers/" "assets/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/spec/fixtures/" (21043 20989 0 0) "team_medal_3.png" "team_medal_2.png" "team_medal_1.png" "single_group_response.json" "search_response.json" "ondemand_import_file.csv" "le_medal_4.png" "le_medal_3.png" "le_medal_2.png" "le_medal_1.png" "le_medal.png" "error_daily_challenge_import.csv" "daily_challenge_import.csv" "challenge.jpg" "cassettes/" "banner.png" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/spec/" (21043 20989 0 0) "uploaders/" "support/" "spec_helper.rb" "presenters/" "models/" "lib/" "helpers/" "fixtures/" "fabricators/" "controllers/" "active_record_spec_helper.rb" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/controllers/api/v1/" (21047 25014 0 0) "team_challenges_controller.rb" "challenges_controller.rb" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/lib/tasks/" (21043 20989 0 0) "user.rake" "sqlserver_tasks.rake" "populate.rake" "cucumber.rake" "challenges.rake" "alias_task.rake" ".gitkeep" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/lib/" (21047 13034 0 0) "wsfed_auth_token.rb" "validatable.rb" "tasks/" "reporting_service.rb" "report_options.rb" "ordinals.rb" "importer.rb" "import_table_builder.rb" "form_builder.rb" "fog_common.rb" "entity_service.rb" "developer_auth_token.rb" "challenge_scheduler.rb" "auth_token_wrapper.rb" "auth_token.rb" "assets/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/config/" (21047 26412 0 0) "routes.rb" "onlife_services.yml" "omniauth-wsfed.yml.erb" "newrelic.yml" "locales/" "initializers/" "environments/" "environment.rb" "deploy.rb" "deploy/" "database_example.yml" "database.yml" "cucumber.yml" "boot.rb" "application.rb" "amazon_s3_keys_example.yml" "amazon_s3_keys.yml" "amazon_endpoint.yml" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/views/api/v1/challenges/" (21043 20989 0 0) "current.json.jbuilder" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/views/api/v1/" (21043 20989 0 0) "team_challenges/" "challenges/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/views/api/" (21043 20989 0 0) "v1/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/views/" (21043 20989 0 0) "unit_of_measures/" "ui/" "team_challenges/" "team_challenge_templates/" "shared/" "searches/" "reports/" "pages/" "medals/" "layouts/" "imports/" "challenges/" "calendars/" "attachments/" "articles/" "archives/" "application/" "api/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/controllers/api/" (21043 20988 0 0) "v1/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/controllers/" (21047 13034 0 0) "unit_of_measures_controller.rb" "ui_controller.rb" "tmp_controller.rb" "team_challenges_controller.rb" "team_challenge_templates_controller.rb" "sessions_controller.rb" "searches_controller.rb" "reports_controller.rb" "pages_controller.rb" "medals_controller.rb" "imports_controller.rb" "challenges_controller.rb" "calendars_controller.rb" "articles_controller.rb" "archives_controller.rb" "application_controller.rb" "api/" "../" "./")
+
+ ("/Users/chuck_wood/onlifehealth/onlife_health/app/" (21043 20989 0 0) "views/" "uploaders/" "presenters/" "models/" "mailers/" "helpers/" "controllers/" "assets/" "../" "./")
+
+ ("/Users/" (21039 32022 0 0) "zeus/" "Shared/" "jhenderson/" "chuck_wood/" ".localized" ".chuck_wood.xahome/" "../" "./")
+
+ ("/Users/chuck_wood/.dotfiles/" (21042 15540 0 0) "install.sh" ".tmux.conf" ".rdebugrc" ".profile" ".gitignore" ".gitconfig" ".git-completion.bash" ".git/" ".emacs.d/" ".bashrc" ".bash_profile" "../" "./")
+
+ ("/Users/chuck_wood/.dotfiles/.emacs.d/" (21047 21476 0 0) "url/" "init.el~" "init.el" "elpa/" "ede-projects.el" "auto-save-list/" "#init.el#" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,3 +1,5 @@
 [user]
 	name = Charles Max Wood
 	email = chuck@devchat.tv
+[push]
+	default = matching
