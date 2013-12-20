@@ -20,3 +20,9 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+
+alias migratedb='rake db:migrate && rake db:migrate RAILS_ENV=test'
+alias seeddb='rake db:seed && rake db:seed RAILS_ENV=test'
+alias wipedb='rake db:wipe && rake db:wipe RAILS_ENV=test'
+alias resetdb='rake db:reset && rake db:reset RAILS_ENV=test'
+alias recreatedb='wipedb && migratedb && seeddb'
