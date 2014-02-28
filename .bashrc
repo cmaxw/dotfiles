@@ -6,13 +6,16 @@ if [ -f /etc/bashrc ]; then
   . /etc/bashrc
 fi
 
-# env variables                                                                                                                                                                                                                              
-export CLICOLOR=1  # osx color files/folders                                                                        
+# env variables
+export CLICOLOR=1  # osx color files/folders
 export ACKRC=".ackrc"  # ack configuration
 
 # source ~/.git-completion.bash
 
 alias tpa='tmux attach -t'
+alias rs='rails server'
+alias rc='rails console'
+alias bipp='bundle install && pessimize -c patch'
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 

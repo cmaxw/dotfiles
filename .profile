@@ -21,8 +21,10 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-alias migratedb='rake db:migrate && rake db:migrate RAILS_ENV=test'
-alias seeddb='rake db:seed && rake db:seed RAILS_ENV=test'
-alias wipedb='rake db:wipe && rake db:wipe RAILS_ENV=test'
-alias resetdb='rake db:reset && rake db:reset RAILS_ENV=test'
-alias recreatedb='wipedb && migratedb && seeddb'
+alias dbcreate='rake db:create && rake db:create RAILS_ENV=test'
+alias dbdrop='rake db:drop && rake db:drop RAILS_ENV=test'
+alias dbmigrate='rake db:migrate && rake db:migrate RAILS_ENV=test'
+alias dbseed='rake db:seed && rake db:seed RAILS_ENV=test'
+alias dbwipe='dbdrop && dbcreate' #'(rake db:wipe && rake db:wipe RAILS_ENV=test) || ()'
+alias dbreset='rake db:reset && rake db:reset RAILS_ENV=test'
+alias dbrecreate='dbwipe && dbmigrate && dbseed'alias dbcreate='rake db:create && rake db:create RAILS_ENV=test'

@@ -46,3 +46,4 @@
 
 (setq-default indent-tabs-mode nil)
 
+(custom-set-variables '(coffee-tab-width 2))

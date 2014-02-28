@@ -3,3 +3,5 @@
 	email = chuck@devchat.tv
 [push]
 	default = matching
+[core]
+	editor = emacs
