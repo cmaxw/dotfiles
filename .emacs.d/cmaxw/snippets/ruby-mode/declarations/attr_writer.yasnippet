@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: attr_writer
+# key: w
+# --
+# ${1:fields}$0
+${1:$
+(mapconcat
+        '(lambda (x) (concat "attr_writer :" x))
+        (split-string yas-text " ")
+        (concat "\n" (make-string (current-column) 32)))}

@@ -4,9 +4,9 @@
 
 
 ;;;### (autoloads (mc/edit-beginnings-of-lines mc/edit-ends-of-lines
-;;;;;;  mc/edit-lines) "mc-edit-lines" "mc-edit-lines.el" (21234
-;;;;;;  32283))
-;;; Generated autoloads from mc-edit-lines.el
+;;;;;;  mc/edit-lines) "mc-edit-lines" "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-edit-lines.el"
+;;;;;;  "5d934922b9f9a3a5965a92fd7f58e807")
+;;; Generated autoloads from ../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-edit-lines.el
 
 (autoload 'mc/edit-lines "mc-edit-lines" "\
 Add one cursor to each line of the active region.
@@ -43,8 +43,9 @@ Add one cursor to the beginning of each line in the active region.
 ;;;;;;  mc/mark-next-lines mc/mark-previous-symbol-like-this mc/mark-previous-word-like-this
 ;;;;;;  mc/mark-previous-like-this mc/mark-next-symbol-like-this
 ;;;;;;  mc/mark-next-word-like-this mc/mark-next-like-this) "mc-mark-more"
-;;;;;;  "mc-mark-more.el" (21234 32283))
-;;; Generated autoloads from mc-mark-more.el
+;;;;;;  "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-mark-more.el"
+;;;;;;  "6e64b7cc8ce13e2af1cbc1cd205ac4b7")
+;;; Generated autoloads from ../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-mark-more.el
 
 (autoload 'mc/mark-next-like-this "mc-mark-more" "\
 Find and mark the next part of the buffer matching the currently active region
@@ -166,7 +167,7 @@ If the region is active and spans multiple lines, it will behave
 as if `mc/mark-all-in-region'. With the prefix ARG, it will call
 `mc/edit-lines' instead.
 
-If the region is inactive or on a single line, it will behave like
+If the region is inactive or on a single line, it will behave like 
 `mc/mark-all-like-this-dwim'.
 
 \(fn ARG)" t nil)
@@ -198,9 +199,9 @@ Mark the tag we're in and its pair for renaming.
 
 ;;;***
 
-;;;### (autoloads (mc/mark-pop) "mc-mark-pop" "mc-mark-pop.el" (21234
-;;;;;;  32283))
-;;; Generated autoloads from mc-mark-pop.el
+;;;### (autoloads (mc/mark-pop) "mc-mark-pop" "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-mark-pop.el"
+;;;;;;  "d6ca90158891ee1716fda33be322cacd")
+;;; Generated autoloads from ../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-mark-pop.el
 
 (autoload 'mc/mark-pop "mc-mark-pop" "\
 Add a cursor at the current point, pop off mark ring and jump
@@ -211,9 +212,9 @@ to the popped mark.
 ;;;***
 
 ;;;### (autoloads (mc/sort-regions mc/reverse-regions mc/insert-numbers)
-;;;;;;  "mc-separate-operations" "mc-separate-operations.el" (21234
-;;;;;;  32283))
-;;; Generated autoloads from mc-separate-operations.el
+;;;;;;  "mc-separate-operations" "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-separate-operations.el"
+;;;;;;  "accf286ba4f022566929bd919cfef08a")
+;;; Generated autoloads from ../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-separate-operations.el
 
 (autoload 'mc/insert-numbers "mc-separate-operations" "\
 Insert increasing numbers for each cursor, starting at 0 or ARG.
@@ -233,8 +234,9 @@ Insert increasing numbers for each cursor, starting at 0 or ARG.
 ;;;***
 
 ;;;### (autoloads (set-rectangular-region-anchor) "rectangular-region-mode"
-;;;;;;  "rectangular-region-mode.el" (21234 32283))
-;;; Generated autoloads from rectangular-region-mode.el
+;;;;;;  "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/rectangular-region-mode.el"
+;;;;;;  "7bb7e602eec3e73c28ad1a3ddb336212")
+;;; Generated autoloads from ../../../../.emacs.d/elpa/multiple-cursors-20140105.259/rectangular-region-mode.el
 
 (autoload 'set-rectangular-region-anchor "rectangular-region-mode" "\
 Anchors the rectangular region at point.
@@ -246,9 +248,16 @@ an exceedingly quick way of adding multiple cursors to multiple lines.
 
 ;;;***
 
-;;;### (autoloads nil nil ("mc-cycle-cursors.el" "multiple-cursors-core.el"
-;;;;;;  "multiple-cursors-pkg.el" "multiple-cursors.el") (21234 32283
-;;;;;;  235992))
+;;;### (autoloads nil nil ("../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-cycle-cursors.el"
+;;;;;;  "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-edit-lines.el"
+;;;;;;  "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-mark-more.el"
+;;;;;;  "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-mark-pop.el"
+;;;;;;  "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/mc-separate-operations.el"
+;;;;;;  "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/multiple-cursors-core.el"
+;;;;;;  "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/multiple-cursors-pkg.el"
+;;;;;;  "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/multiple-cursors.el"
+;;;;;;  "../../../../.emacs.d/elpa/multiple-cursors-20140105.259/rectangular-region-mode.el")
+;;;;;;  (21273 61979 43757))
 
 ;;;***
 
