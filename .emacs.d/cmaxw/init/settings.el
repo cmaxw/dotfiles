@@ -1,8 +1,8 @@
-(defun fdx/load-settings ()
+(defun cmaxw/load-settings ()
   "Loads all Lisp files in the settings subdirectory of the init directory."
-  (dolist (file (directory-files (concat user-emacs-directory "fdx/settings")
+  (dolist (file (directory-files (concat user-emacs-directory "cmaxw/settings")
                                  nil
                                  "\\.el$"))
-    (fdx/load-init-file (concat "fdx/settings/" file))))
+    (cmaxw/load-init-file (concat "cmaxw/settings/" file))))
 
-(fdx/load-settings)
+(cmaxw/load-settings)

@@ -3,11 +3,11 @@
 
 (require 'find-lisp)
 
-(setq fdx-autoload-file (concat user-emacs-directory "loaddefs.el"))
+(setq cmaxw-autoload-file (concat user-emacs-directory "loaddefs.el"))
 
-(defun fdx/autoload-directories (directories)
+(defun cmaxw/autoload-directories (directories)
   "Regenerate the autoload definitions file if necessary and load it."
-  (let ((autoload-file fdx-autoload-file))
+  (let ((autoload-file cmaxw-autoload-file))
     (if (or (not (file-exists-p autoload-file))
             (catch 'newer
               (dolist (directory directories)
@@ -27,12 +27,12 @@
           (apply 'update-directory-autoloads (append directories
                                                      subdirectories))))))
 
-(defun fdx/prepare-autoloads ()
+(defun cmaxw/prepare-autoloads ()
   "Sets up and triggers autoload file."
-  (fdx/autoload-directories
+  (cmaxw/autoload-directories
    (mapcar (lambda (directory) (concat user-emacs-directory directory "/"))
-           '("fdx/functions" "fdx/commands")))
+           '("cmaxw/functions" "cmaxw/commands")))
   (add-to-list 'load-path user-emacs-directory t)
-  (load fdx-autoload-file))
+  (load cmaxw-autoload-file))
 
-(fdx/prepare-autoloads)
+(cmaxw/prepare-autoloads)

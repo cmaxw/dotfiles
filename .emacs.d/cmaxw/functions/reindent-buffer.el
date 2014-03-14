@@ -1,5 +1,5 @@
 ;;;###autoload
-(defun fdx/reindent-buffer ()
+(defun cmaxw/reindent-buffer ()
   "Indent the current buffer."
   (interactive)
   (delete-trailing-whitespace)

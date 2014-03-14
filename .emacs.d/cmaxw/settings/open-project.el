@@ -21,7 +21,7 @@
 (global-set-key (kbd "C-c C-p e")
                 (lambda ()
                   (interactive)
-                  (open-project "~/.emacs.d/fdx/")))
+                  (open-project "~/.emacs.d/cmaxw/")))
 
 (global-set-key (kbd "C-c C-p z")
                 (lambda ()

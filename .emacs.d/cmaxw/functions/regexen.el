@@ -1,12 +1,12 @@
 ;;;###autoload
-(defun fdx/regex-replace (str regex replacement &optional fixedcase literal)
+(defun cmaxw/regex-replace (str regex replacement &optional fixedcase literal)
   "Replace a regular expression in the passed string, if it occurs."
   (or (when (string-match regex str)
         (replace-match replacement fixedcase literal str))
       str))
 
 ;;;###autoload
-(defun fdx/regex-replace-all (str
+(defun cmaxw/regex-replace-all (str
                                regex
                                replacement
                                &optional
@@ -18,7 +18,7 @@
                              fixedcase
                              literal
                              (substring str 0 (match-end 0)))
-              (fdx/regex-replace-all (substring str (match-end 0))
+              (cmaxw/regex-replace-all (substring str (match-end 0))
                                       regex
                                       replacement
                                       fixedcase

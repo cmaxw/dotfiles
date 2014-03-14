@@ -1,5 +1,5 @@
 ;;;###autoload
-(defun fdx/refactoring/extract-let ()
+(defun cmaxw/refactoring/extract-let ()
   "Extract a let from an assignment"
   (interactive)
   (save-excursion
@@ -25,7 +25,7 @@
       )))
 
 ;;;###autoload
-(defun fdx/refactoring/extract-method (beg end)
+(defun cmaxw/refactoring/extract-method (beg end)
   "Extract the selected text as a method"
   (interactive "r")
   (save-excursion
@@ -45,5 +45,5 @@
       (insert "\n")
       (insert "\n")
       (search-backward-regexp "^ *def *")
-      (fdx/reindent-buffer)
+      (cmaxw/reindent-buffer)
       )))

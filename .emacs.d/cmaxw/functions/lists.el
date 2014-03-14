@@ -1,6 +1,6 @@
 ;;;###autoload
-(defun fdx/flatten (x)
+(defun cmaxw/flatten (x)
   "Flatten a list."
   (cond ((null x) nil)
-        ((listp x) (append (fdx/flatten (car x)) (fdx/flatten (cdr x))))
+        ((listp x) (append (cmaxw/flatten (car x)) (cmaxw/flatten (cdr x))))
         (t (list x))))

@@ -2,15 +2,15 @@
 ;; http://blog.zenspider.com/blog/2013/06/my-emacs-setup-osx.html
 
 ;; load OS specific settings
-(fdx/load-init-file (concat "fdx/system/" (symbol-name system-type)) t)
+(cmaxw/load-init-file (concat "cmaxw/system/" (symbol-name system-type)) t)
 
 ;; load system specific settings
-(fdx/load-init-file (concat "fdx/system/" 
+(cmaxw/load-init-file (concat "cmaxw/system/" 
                              (car (split-string (system-name) "\\."))) t)
 
 ;; load minimal early system settings
-(fdx/load-init-file "fdx/system/minimal.el")
+(cmaxw/load-init-file "cmaxw/system/minimal.el")
 
 ;; load minimal early system settings
-(fdx/load-init-file "fdx/system/emacs-configurations.el")
+(cmaxw/load-init-file "cmaxw/system/emacs-configurations.el")
 

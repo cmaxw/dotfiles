@@ -1,5 +1,5 @@
-;;;###autoload
-(defun fdx/toggle-string-type ()
+2;;;###autoload
+(defun cmaxw/toggle-string-type ()
   "Toggle between double, single, and choose-your-own-quotes string types."
   (interactive)
   (let ((regex (concat "\\`\\(?:"
@@ -29,7 +29,7 @@
                  (call-interactively 'backward-delete-char-untabify)
                  (let ((old_point (point)))
                    (insert (concat "%Q{"
-                                   (fdx/regex-replace-all
+                                   (cmaxw/regex-replace-all
                                     (substring matched 1 -1)
                                     "\\\\\""
                                     "\"")
@@ -39,7 +39,7 @@
                  (call-interactively 'backward-delete-char-untabify)
                  (let ((old_point (point)))
                    (insert (concat "'"
-                                   (fdx/regex-replace (substring matched 1 -1)
+                                   (cmaxw/regex-replace (substring matched 1 -1)
                                                         "'"
                                                         "\\\\'")
                                    "'"))
@@ -48,8 +48,8 @@
                  (call-interactively 'backward-delete-char-untabify)
                  (let ((old_point (point)))
                    (insert (concat "\""
-                                   (fdx/regex-replace-all
-                                    (fdx/regex-replace-all (substring matched
+                                   (cmaxw/regex-replace-all
+                                    (cmaxw/regex-replace-all (substring matched
                                                                         1
                                                                         -1)
                                                              "\\\\\'"
@@ -62,7 +62,7 @@
                  (call-interactively 'backward-delete-char-untabify)
                  (let ((old_point (point)))
                    (insert (concat "'"
-                                   (fdx/regex-replace (substring matched 3 -1)
+                                   (cmaxw/regex-replace (substring matched 3 -1)
                                                         "'"
                                                         "\\\\'")
                                    "'"))
@@ -70,7 +70,7 @@
 
 
 ;;;###autoload
-(defun fdx/underscore (region-start region-end)
+(defun cmaxw/underscore (region-start region-end)
   "Forces a string into underscore."
   (interactive "r")
   (mapconcat (lambda (s)

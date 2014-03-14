@@ -26,11 +26,11 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 (local-unset-key (kbd "C-="))
-(local-set-key (kbd "C-=") 'fdx/reindent-buffer)
+(local-set-key (kbd "C-=") 'cmaxw/reindent-buffer)
 (local-unset-key (kbd "M-="))
-(local-set-key (kbd "M-=") 'fdx/reindent-buffer)
+(local-set-key (kbd "M-=") 'cmaxw/reindent-buffer)
 
-(local-set-key (kbd "RET") 'fdx/indent-this-and-previous)
+(local-set-key (kbd "RET") 'cmaxw/indent-this-and-previous)
 (local-set-key (kbd "C-c C-c") 'xmp)
 (local-set-key (kbd "C-;") 'comment-dwim)
 
@@ -39,7 +39,7 @@
 (local-set-key (kbd "M-r") 'er/expand-region)
 
 ;;; Refactorings
-(local-set-key (kbd "C-c r l") 'fdx/refactoring/extract-let)
-(local-set-key (kbd "C-c r e") 'fdx/refactoring/extract-method)
+(local-set-key (kbd "C-c r l") 'cmaxw/refactoring/extract-let)
+(local-set-key (kbd "C-c r e") 'cmaxw/refactoring/extract-method)
 
 ;(subword-mode)

@@ -18,3 +18,12 @@
 (cmaxw/load-init-file "cmaxw/init/settings")
 
 (color-theme-sanityinc-tomorrow-night)
+
+;;; TEMP ;;;
+(defun j2f ()
+  (interactive)
+  (save-excursion
+    (beginning-of-buffer)
+    (replace-regexp "fdx" "cmaxw")))
+(global-set-key (kbd "<f6>") 'j2f)
+;;;;;;;;;;;;
