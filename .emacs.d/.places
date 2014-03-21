@@ -1,5 +1,6 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/chuck/.dotfiles/.emacs.d/elpa/multiple-cursors-20140105.259/multiple-cursors-autoloads.el" . 8613)
+(("/etc/hosts" . 236)
+ ("/home/chuck/.dotfiles/.emacs.d/elpa/multiple-cursors-20140105.259/multiple-cursors-autoloads.el" . 8613)
  ("/home/chuck/.dotfiles/.emacs.d/init.el" . 103)
  ("/home/chuck/.dotfiles/.tmux.conf" . 906)
  ("/home/chuck/.emacs.d/elpa/ace-jump-mode-20140207.530/ace-jump-mode-autoloads.el" . 1662)
@@ -62,4 +63,5 @@
  ("/home/chuck/Projects/fullyforwarded/config/database.yml" . 604)
  ("/home/chuck/Projects/fullyforwarded/config/routes.rb" . 87)
  ("/home/chuck/Projects/gameoflife/Gemfile" . 63)
- ("/home/chuck/Projects/gameoflife/spec/gameoflife_spec.rb" . 701))
+ ("/home/chuck/Projects/gameoflife/spec/gameoflife_spec.rb" . 701)
+ ("/home/chuck/docker/canvas-lms-docker/Dockerfile" . 45))
