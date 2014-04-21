@@ -28,3 +28,5 @@ alias dbseed='rake db:seed && rake db:seed RAILS_ENV=test'
 alias dbwipe='dbdrop && dbcreate' #'(rake db:wipe && rake db:wipe RAILS_ENV=test) || ()'
 alias dbreset='rake db:reset && rake db:reset RAILS_ENV=test'
 alias dbrecreate='dbwipe && dbmigrate && dbseed'alias dbcreate='rake db:create && rake db:create RAILS_ENV=test'
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
