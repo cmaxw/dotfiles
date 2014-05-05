@@ -88,6 +88,7 @@
  'multi-term
  'swoop
  'color-theme-sanityinc-tomorrow
+ 'bundler
  )
 
 ;; vendored packages

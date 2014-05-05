@@ -43,3 +43,7 @@
 (local-set-key (kbd "C-c r e") 'cmaxw/refactoring/extract-method)
 
 ;(subword-mode)
+
+(add-hook 'ruby-mode-hook
+          (lambda ()
+            (define-key ruby-mode-map "\C-c#" 'comment-or-uncomment-region)))
