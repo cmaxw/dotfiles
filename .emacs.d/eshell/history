@@ -30,3 +30,19 @@ rackup
 rackup
 rackup
 rackup
+cd ..
+cd output/
+ls
+ls -al
+cd 201404/
+ls -al
+ls -al
+ls -al
+rake to_csv
+ls -al
+cd ../..
+rake import
+rake import
+rake import
+'.separator ","' | sqlite geonames.sqlite
+'.separator ","' | sqlite3 geonames.sqlite
