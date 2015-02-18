@@ -1,3 +1,9 @@
+;; This is a HACK. I had to haxxor emacs so it wouldn't blow up when tool-bar-mode isn't defined.
+;; In particular el4r blows up and I can't find the reference
+(defun tool-bar-mode (x)
+  "Tell tool bar mode where it can go"
+  )
+
 ;; CMAXW's Emacs configuration
 
 (require 'autoload)
@@ -18,12 +24,3 @@
 (cmaxw/load-init-file "cmaxw/init/settings")
 
 (color-theme-sanityinc-tomorrow-night)
-
-;;; TEMP ;;;
-(defun j2f ()
-  (interactive)
-  (save-excursion
-    (beginning-of-buffer)
-    (replace-regexp "fdx" "cmaxw")))
-(global-set-key (kbd "<f6>") 'j2f)
-;;;;;;;;;;;;

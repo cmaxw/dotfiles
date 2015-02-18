@@ -21,6 +21,11 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+# set PATH so it includes user's private bin if it exists
+if [ -d "/usr/local/bin" ] ; then
+    PATH="/usr/local/bin:$PATH"
+fi
+
 alias dbcreate='rake db:create && rake db:create RAILS_ENV=test'
 alias dbdrop='rake db:drop && rake db:drop RAILS_ENV=test'
 alias dbmigrate='rake db:migrate && rake db:migrate RAILS_ENV=test'

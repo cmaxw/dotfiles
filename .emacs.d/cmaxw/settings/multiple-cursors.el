@@ -1,7 +1,7 @@
 (require 'multiple-cursors)
 
 ;; Multiple cursors
-(global-set-key (kbd "C-<return>") 'mc/edit-lines)
+;; (global-set-key (kbd "C-<return>") 'mc/edit-lines)
 (global-set-key (kbd "C-c a") 'mc/edit-lines)
 
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)

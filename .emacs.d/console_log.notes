@@ -1,0 +1,16 @@
+- /home/chuck/
+  $ pwd
+- /home/chuck/
+  $ pwd
+- /Users/chuck/
+  $ pwd
+- /Users/chuck/
+  $ ls
+- /Users/chuck/Applications/
+  $ ls
+- /Users/chuck/Clients/
+  $ ls
+- /Users/chuck/Clients/canvas/app/
+  $ emacs
+- /Users/chuck/Clients/canvas/
+  $ emacs
