@@ -1,5 +1,6 @@
 ;;; -*- coding: utf-8 -*-
 (("/Users/chuck/.bash_profile" . 320)
+ ("/Users/chuck/.dotfiles/.emacs.d/cmaxw/system/minimal.el" . 510)
  ("/Users/chuck/.dotfiles/.tmux.conf" . 1350)
  ("/Users/chuck/.ido.last" . 34353)
  ("/Users/chuck/.recentf" . 1523)
